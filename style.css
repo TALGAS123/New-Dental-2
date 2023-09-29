@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav-Section */
+
+.Nav-section .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo-left img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-left h1{
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+.menu-middle{
+    display: flex;
+    padding-right: 50px
+}
+
+
+
+.menu-middle ul li{
+    display: inline-block;
+}
+
+.menu-middle ul li a{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 10px;
+    transition: 0.4s all ease-out;
+}
+
+.menu-middle ul li a:hover{
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-right{
+    padding-right: 80px;
+}
+
+.button-right .search{
+    padding-left: 10px;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.button-right .btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.4s all ease-out;
+}
+
+.button-right .btn:hover{
+    color: black;
+}
+
+/* Content-Section */
+
+.content-section .row{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+   
+.content-section .row h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content-section .row p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: blue;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.content-section .row a{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 25px;
+    background-color: tomato;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.4s all ease-in;
+}
+
+.content-section .row a:hover{
+    background-color: crimson;
+    color: black;
+}
+
+.content-section .row .img-right{
+    box-sizing: border-box;
+    border: 10px solid skyblue;
+}
+
+/* service-section */
+
+.service-section .row{
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 40px;
+}
+
+.service-section .row .service{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    padding-left: 20px;
+
+}
+
+.service-section .row .service i{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: deepskyblue;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.service-section .row .service h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.service-section .row .service p{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Gallary-Section */
+
+.gallery-section .row{
+    display: flex;
+    padding: 50px 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.gallery-section .row .content h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: goldenrod;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery-section .row .main-content p{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-gallery{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-gallery i{
+    font-size: 20px;
+    color: deepskyblue;
+}
+
+.work-gallery{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.gallery-section .row .media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.video-content img{
+    height:400px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 5px solid seagreen;
+}
+
+.video video{
+    height: 400px;
+    width: 400px;
+    border: 5px solid seagreen;
+    margin-bottom: 45px;
+}
+
+.video-content a{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.4s all ease-out;
+}
+
+.video-content a:hover{
+    background-color: tomato;
+    color: white;
+}
+
+/* Fan-section */
+
+.fan-section .row{
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 50px;
+    background-color: aquamarine;
+}
+
+.fan-section .row  .user{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.fan-section .row  .user i{
+    font-size: 50px;
+    color: deepskyblue;
+    margin-bottom: 25px;
+}
+
+.fan-section .row  .user h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+.fan-section .row  .user p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* offer-section */
+
+.offer-section{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 30px 0px;
+}
+
+.offer-section  h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+.offer-section  h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.offer-section  p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+}
+
+/* Partner-section */
+.Partner1{
+    padding: 50px 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: wheat;
+}
+
+.Partner1 .Delta{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}  
+
+.Partner1 .Delta i{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.Partner1 .Delta .part-write h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: orangered;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Partner1 .Delta .part-write p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+
+.Partner2{
+    padding: 50px 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: wheat;
+}
+
+.Partner2 .Delta{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}  
+
+.Partner2 .Delta i{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.Partner2 .Delta .part-write h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: orangered;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Partner2 .Delta .part-write p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: black;
+}
+
+/* Equipment-section */
+
+.Equipment .row {
+    display: flex;
+    padding: 25px 100px;
+    align-items: center;
+    background-color: beige;
+}
+
+.Equipment .row .img-left img{
+    height: 500px;
+    width: 500px;
+    border: 5px solid deepskyblue;
+}
+
+
+.Equipment .row .content-right{
+    padding: 50px 200px;
+}
+
+.Equipment .row .content-right h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.Equipment .row .content-right  p{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.Equipment .row .content-right h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.Equipment .row .content-right .Data {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.submit-btn{
+    margin-top: 5px;
+}
+
+.Equipment .row .content-right .Submit-btn{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: deepskyblue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: 0.4s all ease-out;
+
+}
+
+.Equipment .row .content-right .Submit-btn:hover{
+    background-color: brown;
+    color: black;
+}
+
+/* Customer-Section */
+
+.customer-section .customer-row {
+
+    display: flex;
+    padding: 30px 70px;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 50px;
+}
+
+.customer-section .customer-row .ima-lef img{
+    height: 500px;
+    width: 500px;
+    border: 15px solid black;
+}
+
+.customer-section .customer-row .con-ri h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.customer-section .customer-row .con-ri p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.customer-section .customer-row .con-ri i{
+    font-size: 50px;
+    color: deepskyblue;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.Blog-section{
+    padding: 50px 100px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.Blog-section h3{
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Blog-section p{
+    font-size: 20px;
+    color: tomato;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* oparation-section */
+
+.oparation1 .row{
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+    background-color: beige;
+}
+
+.oparation1 .row .surgery{
+    display: flex;
+    gap: 20px;
+}
+
+.oparation1 .row .surgery img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+}
+
+.oparation1 .row .surgery .surgery-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.oparation1 .row .surgery .surgery-content p{
+    font-size: 16px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.oparation1 .row  .surgery .surgery-content .surgery-a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s all ease-out;
+}
+
+.oparation1 .row  .surgery .surgery-content .surgery-a:hover{
+    background-color: black;
+    color: white;
+}
+
+.oparation1 .row  .wash{
+    display: flex;
+    gap: 20px;
+}
+
+.oparation1 .row  .wash img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+}
+
+.oparation1 .row  .wash .wash-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.oparation1 .row  .wash .wash-content p{
+    font-size: 16px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.oparation1 .row  .wash .wash-content .wash-a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s all ease-in;
+}
+
+.oparation1 .row  .wash .wash-content .wash-a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.oparation2 .row{
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+    background-color: beige;
+}
+
+.oparation2 .row .surgery{
+    display: flex;
+    gap: 20px;
+}
+
+.oparation2 .row .surgery img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+}
+
+.oparation2 .row .surgery .surgery-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.oparation2 .row .surgery .surgery-content p{
+    font-size: 16px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.oparation2 .row  .surgery .surgery-content .surgery-a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s all ease-out;
+}
+
+.oparation2 .row  .surgery .surgery-content .surgery-a:hover{
+    background-color: black;
+    color: white;
+}
+
+.oparation2 .row  .wash{
+    display: flex;
+    gap: 20px;
+}
+
+.oparation2 .row  .wash img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+}
+
+.oparation2 .row  .wash .wash-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.oparation2 .row  .wash .wash-content p{
+    font-size: 16px;
+    color: deepskyblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.oparation2 .row  .wash .wash-content .wash-a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s all ease-in;
+}
+
+.oparation2 .row  .wash .wash-content .wash-a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* social-section */
+
+.social{
+    padding: 25px 100px;
+    background-color: wheat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.social h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.social .icons{
+    font-size: 50px;
+    color: deepskyblue;
+    padding-left: 20px;
+}
+
+
+/* footer-section */
+.footer-section .row{
+    display: flex;
+}
+
+.footer-section .row .logo-left{
+    display: inline;
+}
+.footer-section .row .logo-f{
+    display: flex;
+    align-items: center;
+}
+
+.footer-section .row .logo-f h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.footer-section .row .logo-left p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+.footer-section .row .logo-left i{
+    font-size: 40px;
+    color: deepskyblue;
+}
+
+.footer-section .row .logo-left .location{
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+}
+
+
+.footer-section .row .call-right h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-section .row .call-right p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+.footer-section .row .call-right .Call{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    transition: 0.4s all ease-out;
+    font-size: 20px;
+}
+
+.footer-section .row .call-right .Call:hover{
+    background-color: deepskyblue;
+    color: black;
+}
